@@ -20,7 +20,8 @@
 #
 # Prerequisites: setup.R sourced; calibrated_betas available; NAWS and ACS data loaded
 # Output:
-#   output/decomposition_results.csv
+#   output/decomposition_results_infections.csv (attack-rate decomposition)
+#   output/decomposition_results_cases.csv      (symptomatic-case decomposition)
 #   figures/decomposition_attack_rate_diff.pdf/.png
 #   figures/decomposition_attack_rate_ratio.pdf/.png
 # ==============================================================================

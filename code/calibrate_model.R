@@ -319,7 +319,7 @@ run_calibration_sim <- function(pars, nat_data) {
     # --------------------------------------------------------------------------
     # Set up initial conditions for community population
     # --------------------------------------------------------------------------
-    # Seed infection using the same approach as simulate.R / simulate_regional.R:
+    # Seed infection using the same approach as simulate.R / run_regional_batch.R:
     # For each household size, move init_prev * frac * hh_size fraction from
     # fully susceptible (x=n, y=0, z=0) to one-infected (x=n-1, y=1, z=0).
     # This achieves an individual-level initial prevalence of init_prev.

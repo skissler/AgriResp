@@ -91,7 +91,7 @@ baseline_file <- file.path(paths$output_dir,
 
 if (!file.exists(baseline_file)) {
   stop("Baseline simulation file not found: ", baseline_file,
-       "\nRun simulate_regional.R first with baseline parameters.")
+       "\nRun the regional simulations first: source('code/parameters.R') then source('code/run_regional_batch.R'),\nor run the full pipeline with source('code/run_analysis.R').")
 }
 
 epidf_indiv_full <- read_csv(baseline_file, show_col_types = FALSE)

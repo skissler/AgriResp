@@ -366,7 +366,7 @@ pars_metadata <- tibble::tibble(
 #'
 #' Returns the parameter set from pars_list that uses the baseline R0 value
 #' defined in config.R. This ensures consistent baseline parameters across
-#' all scripts (simulate.R, simulate_regional.R, etc.)
+#' all scripts (simulate.R, run_regional_batch.R, etc.)
 #'
 #' @return Named list with baseline parameters
 get_baseline_pars <- function() {
